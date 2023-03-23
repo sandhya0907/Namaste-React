@@ -1,0 +1,39 @@
+What is emmet?
+----Emmet is a free add-on for your text editor.It allows you to type shortcuts that are then 
+    expanded into full pieces of code.
+
+what is difference between library and framework?
+----when you use a library, you are in charge of the flow of the application.
+    you are choosing when and where to call the library
+----when you use a framework, the framework is in charge of the flow
+    it provides some places for you to plugin your code, but its calls the code you plugged in as needed.   
+
+what is CDN? why do we use it?
+----A content delivery network is a network of interconnected servers that speeds up webpage loading 
+    for data-heavy application. CDN Stands for content delivery network or content distribution network
+-------The main use of a CDN is to deliver content through a network of servers in a secure and efficient way. 
+       These networks improve the content security, performance and availability. 
+       They are also used to collect user analytics and tracking data on network traffic. 
+
+why is React known as react?
+----Its called React because it reacts.It was developed by facebook (a site that constantly update
+their data) to improve the user interface developement and more effieciently change 
+(React to) what the user sees when they're doing things like mouse clicking,submitting and typing
+
+What is crossorigin in script tag?
+----Its stands for Cross-origin resource sharing. It is a mechanism by which one webpage requests
+to another domain for fetching out the resources like audio, video, script, etc.from the 
+third party server without leaking their credentials information.
+
+What is diference between React and ReactDOM?
+React library is responsible for creating views and ReactDOM library is responsible 
+to actually render UI in the browser
+
+What is difference between react.development.js and react.production.js files via CDN?
+----The development build is used - as the name suggests - for development reasons. You have source maps, 
+debugging and often times hot reloading ability in those builds. The production build, on the other hand, 
+runs in production mode which means this is the code running on your client's machine
+
+What is async and defer?
+Async allows your script to run as soons as it's loaded, without blocking other elements on the page.
+Defer means your script will only execute after the page has finished loading.
